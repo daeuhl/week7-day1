@@ -79,7 +79,7 @@ you're welcome to use to get the ball rolling on your exercises.
 
 `$ pip list --format=columns` # Checkpoint  
 `$ pip freeze --local > requirements.txt`  
-`$ cat requirements.txt # Checkpoint  
+`$ cat requirements.txt` # Checkpoint  
 
 ##### Push  
 
