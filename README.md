@@ -56,7 +56,7 @@ you're welcome to use to get the ball rolling on your exercises.
 
 `$ git clone https://github.com/daeuhl/week7-day1.git`  
 `$ cd week7-day1`  
-`$ virtualenv --python=\`which python3.5\` venv`  
+`$ virtualenv --python=``which python3.5`` venv`  
 
 ##### Set-up an application framework  
 
