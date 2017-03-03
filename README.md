@@ -38,33 +38,33 @@ you're welcome to use to get the ball rolling on your exercises.
 
 ### Getting Started  
 
-###### Open a terminal emulator, on *macOS*  
+##### Open a terminal emulator, on *macOS*  
 
 `> Cmd+Shift+u`  
 `_ t`  
 `> Cmd+Option+o`  
 
-###### Invoke a terminal multiplexer  
+##### Invoke a terminal multiplexer  
 
 `$ tmux`  
 
-###### Install-and-configure autoenv, on *macOS*  
+##### Install-and-configure autoenv, on *macOS*  
 
 `$ sudo brew install autoenv`  
 `$ sudo echo 'source $(brew --prefix autoenv)'/activate.sh' >> ~/.bash_profile`  
 
-###### Build a sandbox 
+##### Build a sandbox 
 
 `$ git clone https://github.com/daeuhl/week7-day1.git`  
 `$ cd week7-day1`  
 `$ virtualenv --python=`which python3.5` venv`  
 
-###### Set-up an application framework  
+##### Set-up an application framework  
 
 `$ django-admin.py startproject %project_name% .`  
 `$ tree -I venv` # Checkpoint  
 
-###### Customize its default settings  
+##### Customize its default settings  
 
 `$ nano %project_name%/settings.py`  
 `> Ctrl+\`  
@@ -76,13 +76,13 @@ you're welcome to use to get the ball rolling on your exercises.
 `$ echo "STATIC_ROOT = os.path.join(BASE_DIR, 'static')" >> full_frame/settings.py`  
 `$ cat full_frame/settings.py` # Checkpoint  
 
-###### Document its dependencies  
+##### Document its dependencies  
 
 `$ pip list --format=columns` # Checkpoint  
 `$ pip freeze --local > requirements.txt`  
 `$ cat requirements.txt # Checkpoint  
 
-###### Push  
+##### Push  
 
 `$ git checkout -b %branch_name%`  
 `$ git status` # Checkpoint  
