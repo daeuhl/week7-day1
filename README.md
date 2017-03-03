@@ -30,7 +30,7 @@ you're welcome to use to get the ball rolling on your exercises.
 
 **A word on the syntax of the following markdown:**  
 
-- All of the--let's call them actions--are wrapped in backticks (`\``)  
+- All of the--let's call them actions--are wrapped in backticks (```)  
 - Actions that start with `>` are keypress combinations  
 - Actions that start with `$` are commands  
 - Actions that start with `_` are keystrokes  
